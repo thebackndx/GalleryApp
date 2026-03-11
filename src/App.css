@@ -1,0 +1,35 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.imgMainContaner{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;padding: 40px;
+}
+
+/* .imgContainer  {
+    width: 200px;
+    height: 200px;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.btns {
+    display: flex;
+    gap : 20px;
+}
+
+.Btn {
+    padding: 10px 20px;
+    background-color: rgb(73, 153, 85); 
+}
